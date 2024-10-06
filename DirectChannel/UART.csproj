@@ -45,5 +45,11 @@
     <Compile Include="UART.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChannelDefinitions\ChannelDefinitions.csproj">
+      <Project>{0B7BD723-E99C-4067-8E09-05C2E9F35FDA}</Project>
+      <Name>ChannelDefinitions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
