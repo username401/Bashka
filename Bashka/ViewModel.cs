@@ -32,7 +32,7 @@ namespace Bashka
             }
         }
 
-        private string text = "drocheniy Huy";
+        private string text = "Harley Davidson";
         public string Text
         { 
             get { return text; } 
@@ -52,7 +52,7 @@ namespace Bashka
                 return editText ??
                    (editText = new RelayCommand(obj =>
                    {
-                      Text = (i ++).ToString() + "Harley Davidson";
+                      Text = (i ++).ToString() + " Harley Davidson";
                    }));
             }
         }
