@@ -52,7 +52,7 @@ namespace Bashka
                 return editText ??
                    (editText = new RelayCommand(obj =>
                    {
-                      Text = (i ++).ToString() + " drocheniy Huy";
+                      Text = (i ++).ToString() + "Harley Davidson";
                    }));
             }
         }
