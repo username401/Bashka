@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using DeviceDefinitions;
+using System.Reflection;
+using System.Windows;
 
 namespace DeviceExchangeTemplate
 {
@@ -10,6 +12,16 @@ namespace DeviceExchangeTemplate
         public MainWindow()
         {
             InitializeComponent();
+
+            Assembly deviceLib = Assembly.LoadFrom("Devices/VirtualDevice.dll");
+
+            AbstractDevice device = deviceLib.CreateInstance("VirtualDevice.Device") as AbstractDevice;
+
+            if (device != null)
+            {
+                _Test.Text = device?.Name;
+            }
+
         }
     }
 }

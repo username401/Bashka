@@ -99,6 +99,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DeviceDefinitions\DeviceDefinitions.csproj">
+      <Project>{77664a38-daee-434b-9a37-c3766007cfd4}</Project>
+      <Name>DeviceDefinitions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvvmHelper\MvvmHelper.csproj">
       <Project>{25c5f640-e346-4366-9632-8f5a960696a1}</Project>
       <Name>MvvmHelper</Name>

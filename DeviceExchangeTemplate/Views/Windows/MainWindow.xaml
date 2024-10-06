@@ -6,12 +6,14 @@
         xmlns:local="clr-namespace:DeviceExchangeTemplate"
         mc:Ignorable="d"
         
-        Width="1388"
         Height="678"
+        Width="1388"
         WindowStartupLocation="CenterScreen"
         
         Title="Шаблон приложения">
     <Grid>
-        
+        <TextBlock x:Name="_Test" 
+                   Text="Some text..."
+                   Margin="32"/>
     </Grid>
 </Window>
