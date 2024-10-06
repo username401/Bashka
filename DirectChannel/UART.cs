@@ -13,29 +13,66 @@ namespace UART
     {
         private SerialPort _serialPort = new SerialPort();
 
-        public SerialPort SerialPort 
-        { 
-            get 
+        public SerialPort SerialPort
+        {
+            get
             {
                 return _serialPort;
             }
             private set { _serialPort = value; }
         }
 
-        public void Initialaze(int baudRate, Parity parity, StopBits stopBits, int dataBits, string portName)
+        private int _baudRate;
+        public int BaudRate
+        {
+            get { return _baudRate; }
+            set { _baudRate = value; }
+        }
+
+        private Parity _parity;
+        public Parity Parity 
+        { 
+            get { return _parity; } 
+            set { _parity = value; } 
+        }
+
+        private StopBits _stopBits;
+        public StopBits StopBits
+        {
+            get { return _stopBits; }
+            set { _stopBits = value; }
+        }
+
+        private int _dataBits;
+        public int DataBits
+        {
+            get { return _dataBits; }
+            set { _dataBits = value; }
+        }
+
+        private string _portName;
+        public string PortName
+        {
+            get { return _portName; }
+            set { _portName = value; }
+        }
+
+
+        public override void Initialize()
         {
             SerialPort = new SerialPort();
-            SerialPort.BaudRate = baudRate;
-            SerialPort.Parity = parity;
-            SerialPort.StopBits = stopBits;
-            SerialPort.DataBits = dataBits;
-            SerialPort.PortName = portName;
+            SerialPort.BaudRate = BaudRate;
+            SerialPort.Parity = Parity;
+            SerialPort.StopBits = StopBits;
+            SerialPort.DataBits = DataBits;
+            SerialPort.PortName = PortName;
+
         }
-        public void Open()
+        public override void Open()
         {
             SerialPort.Open();
         }
-        public void Close()
+        public override void Close()
         {
             SerialPort.Close();
         }
