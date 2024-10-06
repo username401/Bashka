@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceDefinitions", "Device
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelDefinitions", "ChannelDefinitions\ChannelDefinitions.csproj", "{0B7BD723-E99C-4067-8E09-05C2E9F35FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectChannel", "DirectChannel\DirectChannel.csproj", "{A7DF5656-61BD-4125-82DB-32B8389AE1F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UART", "DirectChannel\UART.csproj", "{A7DF5656-61BD-4125-82DB-32B8389AE1F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDevice", "VirtualDevice\VirtualDevice.csproj", "{3448799A-2AD2-44E9-A5BA-27D49EB79FF0}"
 EndProject

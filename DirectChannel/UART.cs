@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DirectChannel
 {
-    public class Class1
+    public class UART
     {
     }
 }

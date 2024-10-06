@@ -76,7 +76,7 @@ namespace Bashka
         {
             get
             {
-                return strigis; 
+                return strigis; // 
             }
             set
             {
@@ -86,12 +86,12 @@ namespace Bashka
 
         public ICommand DeleteStringis { get; }
         private bool CanExecuteDeleteStringis (object parameter)
-        {
-            if (Stringis.Count == 0)
-                return false;
-            return true;
-        }
-        private void ExecuteDeleteStringis (Object parameter)
+        {                                                       
+            if (Stringis.Count == 0)                            
+                return false;                                   
+            return true;                                        
+        }                                                       
+        private void ExecuteDeleteStringis (Object parameter)   
         {
             strigis.Remove(SelectedStringis);
             if (Stringis.Count > 0)
