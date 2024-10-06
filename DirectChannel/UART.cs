@@ -73,7 +73,7 @@ namespace UART
 
         public void CheckState()
         {
-
+            var state = SerialPort.IsOpen;
         }
     }
 }
