@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelDefinitions", "Chann
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDevice", "VirtualDevice\VirtualDevice.csproj", "{3448799A-2AD2-44E9-A5BA-27D49EB79FF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDefinitions", "CommonDefinitions\CommonDefinitions.csproj", "{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{3448799A-2AD2-44E9-A5BA-27D49EB79FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3448799A-2AD2-44E9-A5BA-27D49EB79FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3448799A-2AD2-44E9-A5BA-27D49EB79FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{A7DF5656-61BD-4125-82DB-32B8389AE1F6} = {8333F5F7-0072-4867-A771-8BCEC68FCB17}
 		{0B7BD723-E99C-4067-8E09-05C2E9F35FDA} = {CE45FDBA-BD1B-44F1-ACD8-F0E405E00C94}
 		{3448799A-2AD2-44E9-A5BA-27D49EB79FF0} = {E6AB4B80-FE9A-49EA-964C-59BFD8E5D530}
+		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96} = {CE45FDBA-BD1B-44F1-ACD8-F0E405E00C94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C58EBA98-688B-4C6B-8563-102DA0501AC7}
