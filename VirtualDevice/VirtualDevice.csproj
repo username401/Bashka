@@ -48,6 +48,7 @@
     <ProjectReference Include="..\DeviceDefinitions\DeviceDefinitions.csproj">
       <Project>{77664a38-daee-434b-9a37-c3766007cfd4}</Project>
       <Name>DeviceDefinitions</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
