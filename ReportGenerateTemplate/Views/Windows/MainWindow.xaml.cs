@@ -24,7 +24,7 @@ namespace ReportGenerateTemplate.Views.Windows
         public MainWindow()
         {
             InitializeComponent();
-            Assembly ExcelReporter = Assembly.LoadFrom("ExcelReporter/ExcelReporter.dll");
+            Assembly ExcelReporter = Assembly.LoadFrom("ExcelReporter.dll");
 
             AbstractExcelReporter excelReporter = ExcelReporter.CreateInstance("ExcelReporter.Reporter") as AbstractExcelReporter;
 

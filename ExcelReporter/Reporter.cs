@@ -9,7 +9,7 @@ namespace ExcelReporter
 {
     public class Reporter : AbstractExcelReporter
     {
-        public override string Name { get; } = "Виртуальное устройство";
+        public override string Name { get; } = "Эксель репортер";
         public override byte[] Generate()
         {
             throw new NotImplementedException();
