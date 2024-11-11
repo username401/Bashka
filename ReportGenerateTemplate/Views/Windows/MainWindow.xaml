@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReportGenerateTemplate.Views.Windows"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    
+        Height="678"
+        Width="1388"
+        WindowStartupLocation="CenterScreen"
+
+        Title="Шаблон приложения">
+        <Grid>
+            <TextBlock x:Name="_Test" 
+                   Text="Some text..."
+                   Margin="32"/>
+        </Grid>
 </Window>
