@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDefinitions", "Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDefinitions", "ExcelDefinitions\ExcelDefinitions\ExcelDefinitions.csproj", "{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGenerateTemplate", "ReportGenerateTemplate\ReportGenerateTemplate.csproj", "{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

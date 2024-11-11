@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExcelDefinitions
+namespace ReportGenerateTemplate.ViewModels.Windows
 {
-    public abstract class AbstractExcelReporter
+    internal class MainWindowViewModel
     {
-        public abstract byte[] Generate();
     }
 }
