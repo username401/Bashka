@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDevice", "VirtualDev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonDefinitions", "CommonDefinitions\CommonDefinitions.csproj", "{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDefinitions", "ExcelDefinitions\ExcelDefinitions\ExcelDefinitions.csproj", "{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{0B7BD723-E99C-4067-8E09-05C2E9F35FDA} = {CE45FDBA-BD1B-44F1-ACD8-F0E405E00C94}
 		{3448799A-2AD2-44E9-A5BA-27D49EB79FF0} = {E6AB4B80-FE9A-49EA-964C-59BFD8E5D530}
 		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96} = {CE45FDBA-BD1B-44F1-ACD8-F0E405E00C94}
+		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5} = {CE45FDBA-BD1B-44F1-ACD8-F0E405E00C94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C58EBA98-688B-4C6B-8563-102DA0501AC7}
