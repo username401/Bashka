@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDefinitions", "ExcelDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGenerateTemplate", "ReportGenerateTemplate\ReportGenerateTemplate.csproj", "{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExcelReporter", "ExcelReporter", "{69827408-2F69-49B6-BC6C-DCEC54C61116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelReporter", "ExcelReporter\ExcelReporter.csproj", "{5399B44C-0982-44E0-8B59-D4C5127A5D93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,10 @@ Global
 		{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBF368C7-6619-4C0E-B893-3D4DE501A7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5399B44C-0982-44E0-8B59-D4C5127A5D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5399B44C-0982-44E0-8B59-D4C5127A5D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5399B44C-0982-44E0-8B59-D4C5127A5D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5399B44C-0982-44E0-8B59-D4C5127A5D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +97,7 @@ Global
 		{3448799A-2AD2-44E9-A5BA-27D49EB79FF0} = {E6AB4B80-FE9A-49EA-964C-59BFD8E5D530}
 		{3C91E0E2-27B1-4E83-A8FE-11B1F0681C96} = {CE45FDBA-BD1B-44F1-ACD8-F0E405E00C94}
 		{0531F5D9-F5A1-4B24-8DD9-E10BF09CAEF5} = {CE45FDBA-BD1B-44F1-ACD8-F0E405E00C94}
+		{5399B44C-0982-44E0-8B59-D4C5127A5D93} = {69827408-2F69-49B6-BC6C-DCEC54C61116}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C58EBA98-688B-4C6B-8563-102DA0501AC7}

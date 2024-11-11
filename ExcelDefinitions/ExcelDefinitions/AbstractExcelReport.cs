@@ -8,6 +8,7 @@ namespace ExcelDefinitions
 {
     public abstract class AbstractExcelReporter
     {
+        public abstract string Name { get; }
         public abstract byte[] Generate();
     }
 }
